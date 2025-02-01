@@ -1,0 +1,13 @@
+App.jsx
+Of course! Here are those two points explained in simpler terms:
+
+1. **Dynamic Code Splitting**: 
+ Imagine your app is like a big book.
+ React.lazy lets you tear the book into smaller chapters.
+ It loads only the chapters you need, not the whole book. 
+This makes your app load faster when you open it because it doesn't have to carry the entire book all at once.
+
+2. **Error Handling and Fallbacks**: Think of Suspense as a way to keep your app looking nice while it's working.
+ If a part of your app is taking a bit longer to load, you can show a friendly "Loading..." message to users instead of a blank screen. 
+And if something goes wrong during loading, you can show a helpful error message instead of crashing the whole app.
+ It's like making sure your website always stays polite and helpful to users.
